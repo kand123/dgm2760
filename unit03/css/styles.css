@@ -1,0 +1,50 @@
+
+header, main, footer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../images/header3.2.jpg);
+    height: 200px;
+    background-position: 0% 25%;
+}
+
+header img {
+    width: 100%;
+}
+
+header h1, h2 {
+    margin: 0;
+    padding: 1% 0 0 2%;
+}
+
+main {
+    margin-bottom: 3%;
+    
+}
+
+div.col1 div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section#game {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2%;
+}
+
+
+
+
+
+
+footer {
+    background-color: #000;
+color: #fff;
+display: flex; 
+justify-content: center;
+}
