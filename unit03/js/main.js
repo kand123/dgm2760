@@ -12,22 +12,32 @@ console.log(correctNumber)
 
 
 function evalGuess(){
+
 totalGuesses++ //incrementing by 1
+
 gamerGuess = document.querySelector('#guess').value
 
 const feedback = document.querySelector('#feedback')
 
+//Once someone has reached the correct answer, it won't iterate anymore so you can see how many tries it took them just to get to the correct answer.
+if (ribbon.hasChildNodes() == true) {
+    totalGuesses -= 1
+}
+
 if (gamerGuess == correctNumber) {
     console.log(`gamerGuess is equal to correctNumber`)
-    feedback.innerText = 'congrats! you got it!'
-    giveAward()
+    feedback.innerText = 'Congrats! You are correct!'
+    if (ribbon.hasChildNodes() == false){
+    giveAward() 
+    }
+    
 } else if (gamerGuess > correctNumber && gamerGuess <16) {
-    feedback.innerText = 'too high, try again'
+    feedback.innerText = 'Too high. Try again.'
 } else if (gamerGuess < correctNumber && gamerGuess >0) {
-    feedback.innerText = 'too low, try again'
+    feedback.innerText = 'Too low. Try again.'
 } 
     else {
-        feedback.innerText = 'Please choose a number between 1 and 15 and try again.'
+    feedback.innerText = 'Please choose a number between 1 and 15 and try again.'
      totalGuesses  -= 1
     }
     document.querySelector('#attempts').innerText = totalGuesses
@@ -38,29 +48,39 @@ if (gamerGuess == correctNumber) {
 function giveAward() {
 console.log('Congrats')
 let imagePath = "#"
+
 switch (totalGuesses){
     case 1:
     case 2: 
     case 3:
-        imagePath = '#'  
+        imagePath = 'images/first.png'  
         break;
     case 4:
     case 5: 
     case 6:
-        imagePath = '#'    
+        imagePath = 'images/second.png'    
         break;
-//do the rest here
+    case 7: 
+    case 8:
+    case 9:
+    case 10:
+    case 11:
+    case 12:
+    case 13: 
+    case 14:
+    case 15:
+        imagePath = 'images/third.png'
+        break  
 }
 
-const awardImage = document.createElement('img') 
-awardImage.setAttribute('src', '#')
+const awardImage = document.createElement('img') //creates a <img> element
+awardImage.setAttribute('src', imagePath)
 const ribbon = document.querySelector('#ribbon')
 
 
 ribbon.appendChild(awardImage)
 
-
 }
 
-//mdn it can give you a boolean about whether there are child nodes or not
-//how to stop ribbons from repeating - only append child if the ribbon element does not have any child nodes yet
+
+
