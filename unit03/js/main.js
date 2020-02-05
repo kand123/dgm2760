@@ -1,5 +1,5 @@
 document.querySelector('header > h1').innerText = "Guessing Game"
-document.querySelector('header > h2').innerText = "Learning About Loops"
+document.querySelector('header > h2').innerText = "LEARNING ABOUT LOOPS"
 
 
 let correctNumber = Math.floor(Math.random() * 15)
