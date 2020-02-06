@@ -20,7 +20,7 @@ gamerGuess = document.querySelector('#guess').value
 const feedback = document.querySelector('#feedback')
 
 //Once someone has reached the correct answer, it won't iterate anymore so you can see how many tries it took them just to get to the correct answer.
-if (ribbon.hasChildNodes() == true) {
+if (ribbon.hasChildNodes() == true && gamerGuess <16 && gamerGuess >0) {
     totalGuesses -= 1
 }
 
@@ -37,7 +37,7 @@ if (gamerGuess == correctNumber) {
     feedback.innerText = 'Too low. Try again.'
 } 
     else {
-    feedback.innerText = 'Please choose a number between 1 and 15 and try again.'
+    feedback.innerText = 'Please choose a number between 1 and 15.'
      totalGuesses  -= 1
     }
     document.querySelector('#attempts').innerText = totalGuesses
@@ -60,15 +60,8 @@ switch (totalGuesses){
     case 6:
         imagePath = 'images/second.png'    
         break;
-    case 7: 
-    case 8:
-    case 9:
-    case 10:
-    case 11:
-    case 12:
-    case 13: 
-    case 14:
-    case 15:
+    default:
+   
         imagePath = 'images/third.png'
         break  
 }
