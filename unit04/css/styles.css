@@ -26,32 +26,49 @@ header, main, footer {
     margin: 0 auto;
 }
 
+body {
+    font-family: 'Noto Sans';
+}
+
 header {
-   
-    height: 200px;
-    /* background-position: 0% 25%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;
-} */
+   background-image: url(../images/tarot.jpg);
+    height: 250px;
 
+    background-position: 25% 40%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
 
-
-header h1, h2 {
-    margin: 0;
-    padding: 1% 0 0 1%;
+header img {
+    width: 100%;
 }
 
 header h1 {
-    font-size: 2.9rem;
-    font-family: 'Oswald', sans-serif;
-    
+    margin: 0;
+    padding: 1.5% 0 0 1%;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0 0 0 1%;
+}
+
+header h1 {
+    font-size: 3.1rem;
+    color: #FF2125;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(253, 5, 9, 0.63);
+    font-family: 'Trade Winds' ;
+    letter-spacing: -.22rem;
 
 }
 
 header h2 {
-    padding-top: 0;
-    font-size: 1.1rem;
-    letter-spacing: .15rem;
+    font-size: 1.3rem;
+    letter-spacing: .55rem;
+    color: #fff;
+    margin-top: -1.1rem;
+
 }
 
 main {
@@ -66,15 +83,25 @@ main h1, h2, p {
 main h1 {
     font-size: 1.8rem;
     margin-bottom: 0;
+    color: #FF2125;
 }
 
 
 main h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: rgb(9, 96, 139);
+}
+h2.bigger {
+    font-size: 1.45rem;
+}
+
+main ul li {
+    font-size: .85rem;
+    margin-bottom: -5px;
 }
 
 main p {
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.6rem;
     margin-bottom: 2%;
 }
@@ -84,15 +111,18 @@ main li {
     line-height: 1.4rem;
 }
 
-
+#fortune {
+    font-size: 1.7rem;
+    color: #FF2125;
+}
 
 footer {
-background-color: rgb(0, 56, 139);
+background-color:rgb(65, 62, 60);
 color: #fff;
 display: flex; 
 justify-content: center;
 font-size: .8rem;
-
+margin-top: 15%;
 }
 
 footer p {
@@ -100,5 +130,5 @@ footer p {
     padding-bottom: .25rem;
 }
 main {
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
