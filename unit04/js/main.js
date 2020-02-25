@@ -63,22 +63,22 @@ console.log(fate)
 let message
 switch (fate) {
 case 1: 
-message = "win 100 million dollars in the lotto"
+message = "win the lotto and retire the next day"
 break;
 case 2: 
-message = 'meet the President of the United States'
+message = 'meet the President of the United States. He will come to you for advice'
 break;
 case 3: 
-message = 'inherit a large fortune from a distant relative'
+message = 'inherit a large fortune from a distant relative and buy a private island'
 break;
 case 4: 
-message = 'lose all your teeth in an accident'
+message = 'lose all your teeth in a tragic accident'
 break;
 case 5: 
 message = 'find the fountain of youth'
 break;
 default: 
-message = 'win a contest for a brand new car'
+message = 'win a contest for a brand new sports car'
 break;
       }
 return message
@@ -90,4 +90,8 @@ return message
   
   const fortuneRevealed = `On ${monthName} ${day}, you will ${fortuneGenerator}.`
 
+  function knowFate(){
+
   document.querySelector('#fortune').innerText = fortuneRevealed
+
+}
