@@ -1,0 +1,141 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  /*  apply a natural box layout model to all elements  */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* body {
+    margin: 0;
+    padding:0;
+}
+main{
+    margin: 0;
+    padding: 0;
+} */
+
+header, main, footer {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Noto Sans';
+}
+
+header {
+   background-color: gray;
+    height: 250px;
+
+    background-position: 25% 40%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+header img {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1.5% 0 0 1%;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0 0 0 1%;
+}
+
+header h1 {
+    font-size: 3.1rem;
+    color: #FF2125;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(253, 5, 9, 0.63);
+    font-family: 'Trade Winds' ;
+    letter-spacing: -.22rem;
+
+}
+
+header h2 {
+    font-size: 1.3rem;
+    letter-spacing: .55rem;
+    color: #fff;
+    margin-top: -1.1rem;
+
+}
+
+main {
+    margin-bottom: 3%;
+    padding-left: 0;
+}
+
+main h1, h2, p {
+    padding-left: 1%;
+}
+
+main h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: #FF2125;
+}
+
+
+main h2 {
+    font-size: 1rem;
+    color: rgb(9, 96, 139);
+}
+
+
+main ul li {
+    font-size: .85rem;
+    margin-bottom: -5px;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 2%;
+}
+
+main li {
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+
+
+footer {
+background-color:rgb(65, 62, 60);
+color: #fff;
+display: flex; 
+justify-content: center;
+font-size: .8rem;
+margin-top: 7%;
+}
+
+footer p {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+main {
+    margin-bottom: 2%;
+}
+
+
+button {
+    margin: 1%;
+    width: 100px;
+    border-radius: 7px;
+    background-color: yellow;
+    box-shadow:1px 2px 2px lightgray;
+    font-size: 1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
