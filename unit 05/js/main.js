@@ -4,6 +4,7 @@ let trees = ['aspen', 'Oak', 'ash', 'Maple']
 const errorElement = document.querySelector('#error')
 const displayResults = document.querySelector('#displayResults')
 
+
 // Display list of trees inside the displayResults div
 const listTrees = () => {
 let treeList = ''
@@ -11,7 +12,9 @@ trees.forEach(tree => {
 treeList += `${tree} <br>` 
 
 })
-displayResults.innerHTML = `${treeList} <span>${trees.length} elements long</span>`
+
+
+displayResults.innerHTML = `${treeList} <span style="color:#3B800A; font-size: 1.2rem;">${trees.length} elements long</span>`
 }
 
 listTrees()
@@ -44,7 +47,7 @@ document.querySelector('#remove_tree2').onclick = () => {
 trees.splice(1,1)
 listTrees()
     } else {
-        errorElement.textContent = 'Uh oh. I cannot remove the second tree. There are no trees.'
+        errorElement.textContent = 'Uh oh. I cannot remove the second tree. There are not enough trees.'
     }
 }
 
