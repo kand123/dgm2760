@@ -1,0 +1,186 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
+  }
+  
+  /*  apply a natural box layout model to all elements  */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Lato';
+  }
+
+/* body {
+    margin: 0;
+    padding:0;
+}
+main{
+    margin: 0;
+    padding: 0;
+} */
+
+header, main, footer {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Noto Sans';
+}
+
+header {
+   background-color: gray;
+    height: 250px;
+background-image: url(../images/arborist1.jpg);
+    background-position: 25% 15%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+header img {
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1.5% 0 0 1%;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0 0 0 1%;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    
+    color:darkslategray;
+    text-shadow: 2px 3px 10px white;
+    font-family: 'Trade Winds' ;
+    letter-spacing: .2rem;
+
+}
+
+header h2 {
+    font-size: 1.2rem;
+    letter-spacing: .25rem;
+    color: #fff;
+     text-shadow: 2px 3px 10px darkslategray;
+    margin-top: -.4rem;
+
+}
+
+main {
+    margin-bottom: 3%;
+    padding-left: 0;
+    
+}
+
+main h1, h2, p {
+    padding-left: 1%;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: rgb(2, 150, 2);
+    color: #51ADAC;
+    color: #4899A7;
+}
+
+
+main h2 {
+    font-size: 1.3rem;
+    color: rgb(9, 96, 139);
+    color:darkslategray;
+    padding-top: 2%;
+    padding-bottom: 0;
+    margin: 0;
+    padding: 0 1%;
+}
+
+#sorting h2 {
+    padding-top: 4%;
+    padding-bottom: 0;
+}
+
+main ul li {
+    font-size: .95rem;
+    margin-bottom: -5px;
+}
+
+main ul {
+    margin-bottom: 40px;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 2%;
+}
+
+main li {
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+#sorting {
+    display: flex;
+}
+
+footer {
+background-color:rgb(65, 62, 60);
+color: #fff;
+display: flex; 
+justify-content: center;
+font-size: .8rem;
+margin-top: 7%;
+}
+
+footer p {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+main {
+    margin-bottom: 2%;
+}
+
+
+button {
+    margin: 1%;
+    width: 70%;
+    border-radius: 7px;
+    background-color: yellow;
+    background-color: #5DAD37;
+    box-shadow:1px 2px 2px lightgray;
+    font-size: .9rem;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+#sorting {
+    border-top: 1px solid black;
+    
+}
+
+aside {
+    padding-top: .5%;
+    width: 30%;
+    padding-left: 3%;
+}
+
+#displayResults {
+background-color: rgb(198, 199, 191);
+font-size: 1.2rem;
+padding-left: 3%;
+padding-top: 2%;
+padding-bottom: 2%;
+margin-top: 2%;
+}
+
+#error {
+    background-color: yellow;
+    padding: 0 3%;
+    /* margin-top: 2%; */
+}
