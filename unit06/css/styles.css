@@ -1,154 +1,165 @@
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    
-  }
-  
-  /*  apply a natural box layout model to all elements  */
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Lato';
-  }
-
-/* body {
-    margin: 0;
-    padding:0;
-}
-main{
-    margin: 0;
-    padding: 0;
-} */
-
-header, main, footer {
-    max-width: 75rem;
-    margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-body {
-    font-family: 'Noto Sans';
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header,
+main,
+footer {
+  max-width: 75rem;
+  margin: 0 auto;
 }
 
 header {
-   background-color: gray;
-    height: 250px;
-background-image: url(../images/arborist1.jpg);
-    background-position: 25% 15%;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
+  background-color: gray;
+  height: 300px;
+  background-image: url(../images/header1.jpg);
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
 }
 
 header img {
-    width: 100%;
+  width: 100%;
 }
 
 header h1 {
-    margin: 0;
-    padding: 1.5% 0 0 1%;
+  margin: 0;
+  padding: 1.5% 0 0 1%;
 }
 
 header h2 {
-    margin: 0;
-    padding: 0 0 0 1%;
+  margin: 0;
+  padding: 0 0 0 1%;
 }
 
 header h1 {
-    font-size: 2.6rem;
-    
-    color:darkslategray;
-    text-shadow: 2px 3px 10px white;
-    font-family: 'Trade Winds' ;
-    letter-spacing: .2rem;
+  font-size: 2.6rem;
 
+  color: rgb(235, 240, 237);
+  text-shadow: 2px 3px 10px #111;
+  font-family: "Trade Winds";
+  letter-spacing: 0.2rem;
 }
 
 header h2 {
-    font-size: 1.2rem;
-    letter-spacing: .25rem;
-    color: #fff;
-     text-shadow: 2px 3px 10px darkslategray;
-    margin-top: -.4rem;
-
+  font-size: 1.2rem;
+  letter-spacing: 0.25rem;
+  color: #fff;
+  text-shadow: 2px 3px 10px darkslategray;
+  margin-top: -0.4rem;
 }
 
 main {
-    margin-bottom: 3%;
-    padding-left: 0;
-    
+  margin-bottom: 4%;
+  padding-left: 0;
 }
 
-main h1, h2, p {
-    padding-left: 1%;
+main h1,
+h2,
+p {
+  padding-left: 1%;
 }
 
 main h1 {
-    font-size: 2rem;
-    margin-bottom: 0;
-    color: rgb(2, 150, 2);
-    color: #51ADAC;
-    color: #4899A7;
+  font-size: 1.9rem;
+  margin-bottom: 2%;
+  color: rgb(197, 5, 5);
 }
-
 
 main h2 {
-    font-size: 1.3rem;
-    color: rgb(9, 96, 139);
-    color:darkslategray;
-    padding-top: 2%;
-    padding-bottom: 0;
-    margin: 0;
-    padding: 0 1%;
+  font-size: 1.2rem;
+
+  color: rgb(44, 78, 57);
+  padding-top: 2%;
+  padding-bottom: 0;
+  margin: 0;
+  padding: 0 1%;
 }
 
-
 main ul li {
-    font-size: .95rem;
-    margin-bottom: -5px;
+  font-size: 0.95rem;
+  margin-bottom: -5px;
 }
 
 main ul {
-    margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 main p {
-    font-size: 1rem;
-    line-height: 1.6rem;
-    margin-bottom: 2%;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 2%;
 }
 
 main li {
-    font-size: .9rem;
-    line-height: 1.4rem;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
 }
 
+div#display {
+  display: flex;
+
+  justify-content: flex-start;
+
+  padding-left: 2%;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+article {
+  margin-right: 1%;
+}
+
+textarea {
+  width: 225px;
+  height: 150px;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
 
 footer {
-background-color:rgb(65, 62, 60);
-color: #fff;
-display: flex; 
-justify-content: center;
-font-size: .8rem;
-margin-top: 7%;
+  background-color: rgb(214, 201, 164);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin-top: 7%;
 }
 
 footer p {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  color: black;
 }
 main {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
-
 button {
-    margin: 1%;
-    width: 70%;
-    border-radius: 7px;
-    background-color: yellow;
-    background-color: #5DAD37;
-    box-shadow:1px 2px 2px lightgray;
-    font-size: .9rem;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+  margin: 2%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  width: 15%;
+  min-width: 100px;
+  min-height: 45px;
+
+  border-radius: 7px;
+
+  background-color: rgb(197, 5, 5);
+  color: white;
+  box-shadow: 1px 2px 2px lightgray;
+  font-size: 0.9rem;
+  padding-top: 1.1%;
+  padding-bottom: 1.1%;
 }
