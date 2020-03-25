@@ -153,7 +153,7 @@ html {
   }
 
  #orderform {
-     border: 1px solid black;
+     border: 1px solid gray;
      max-width: 300px;
      padding-bottom: 3%;
      padding-left: 1%; 
