@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Emporium</title>
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <header>
+        <h1>Pizza Emporium</h1>
+        <h2>LITERAL OBJECTS</h2>
+    </header>
+    <main>
+        <h1>Pizza Order Form</h1>
+        <h2>What I learned</h2>
+        <ul class="objectives">
+        <li>Create an object literal with properties and methods</li>
+        <li>Set the properties in an object</li>
+        <li>Access the properties in an object</li>
+        <li>Access the methods of an object</li>
+        <li>Use math operators</li>
+        <li>Use template literals</li>
+        <li>Use querySelector and textContent to dynamically change text on the screen</li>
+        </ul>
+        <p>Select your options below to order your pizza! If you would rather bake one at home, select "shopping list" instead for a list of ingredients. Either way, you are guaranteed a delicious dinner.</p>
+<div id="orderform">
+        <h2>CRUST</h2>
+       <div> <input type="radio" id="thin" name="crust" value="thin" checked>
+        <label for="thin">Thin</label></div>
+
+       <div> <input type="radio" id="thick" name="crust" value="thick">
+        <label for="thick">Thick</label></div>
+
+        <h2>TOPPINGS</h2>
+        <div><input type="radio" id="sausage" name="topping" value="sausage">
+        <label for="sausage">Sausage</label></div>
+        <div><input type="radio" id="pepperoni" name="topping" value="pepperoni" checked>
+        <label for="pepperoni">Pepperoni</label></div>
+
+        <h2>SIZE</h2>
+
+       <div> <input type="radio" id="small" name="size" value="small" checked>
+        <label for="small">Small</label></div>
+        <div><input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label></div>
+        <div><input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label></div>
+
+    </div>
+
+        <!-- <h2>Time to Eat</h2> -->
+        <button id="build">Order Pizza</button>
+
+        <!-- <h2>Shopping List</h2> -->
+        <button id="shopping">Shopping List</button>
+
+        <!-- <h2>Messages back to the user</h2> -->
+        <p id="feedback"></p>
+    </main>
+    <footer>
+        <p>Assignment for DGM2760 by Kristin Andrews</p>
+    </footer>
     
 </body>
 <script type="text/javascript" src="js/main.js"></script>
