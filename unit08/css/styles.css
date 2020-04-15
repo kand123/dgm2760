@@ -8,7 +8,6 @@ html {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Alegreya Sans', sans-serif;
     
   }
@@ -85,12 +84,12 @@ html {
     padding-top: 1%;
     padding-bottom: 0;
     margin-bottom: 1%;
-    /* padding: 0 1%; */
+  
     
   }
   
   main ul li {
-    /* font-size: 0.95rem; */
+   
     font-size: 1.1rem;
     margin-bottom: -5px;
   }
@@ -112,7 +111,6 @@ html {
   
   button {
     width: 100%;
-    background-color: green;
     color: white;
     padding: 1rem .5rem;
     font-size: 1.2rem;
@@ -120,19 +118,14 @@ html {
     color: rgb(1, 7, 65);
     opacity: .9;
     border: 1px solid white;
-    /* margin: .2rem; */
-    /* border-radius: 10px; */
   }
 
   button:hover {
-    background-color: rgb(156, 1, 1);
     background-color: rgb(253, 175, 175);
-    color: white;
     color: black;
   }
 
   div#stem {
-    background-color: rgb(226, 225, 223);
     background-color: rgb(1, 7, 65);
     color: white;
     padding: 1rem .5rem;
@@ -152,9 +145,8 @@ html {
 }
 
   footer {
-    background-color: rgb(206, 202, 191);
-    background-color: rgb(1, 7, 65);
-    color: #fff;
+    background-color: rgb(223, 222, 222);
+    color: black;
     display: flex;
     justify-content: center;
     font-size: 0.9rem;
@@ -164,8 +156,7 @@ html {
   footer p {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    color: black;
-    color: white;
+
   }
   main {
     margin-bottom: 2%;
