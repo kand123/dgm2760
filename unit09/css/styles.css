@@ -83,6 +83,8 @@ header h2 {
 		background-color: rgba(0,0,0,0.2);
 	}
 
+
+
 	div.smallMenuLink {
 		display: block;
 		background-color: #742124;
@@ -93,6 +95,7 @@ header h2 {
 		text-decoration: none;
 		padding: .6rem;
 	}
+	
 } /* end of small navigation*/
 
 
@@ -107,9 +110,10 @@ main h2 {
 	color: #21494e;
 	padding: .6rem 0 0 2%;
 }
-main p {padding: .2rem 0 0 2%; line-height: 150%;}
+main p {padding: .2rem 2% 0 2%; line-height: 150%;}
 
-main ul {margin: 0;}
+main ul {margin: 0;
+margin-top: 2%; margin-bottom: 2%;}
 main ul.objectives li {
 	list-style-image: url("../images/check.png");
 	margin-left: 3rem;
@@ -117,16 +121,25 @@ main ul.objectives li {
 }
 
 
-main img.myPhoto {width: 75%;}
+main img.myPhoto {width: 75%; }
+	@media only screen and (max-width: 600px) {
+		main img.myPhoto {
+	margin-top: 7%; margin-bottom:5%;}
+h2{font-size: 1.3rem;}
+main p {padding-top: 0;}
+main ul {margin-bottom: 2rem;}
+}
 
 footer {
 	background-color: #742124;
 	clear: both; 
+	padding: .1rem 0;
 }
 footer p {
 	text-align: center;
 	color: white;
-	padding: .5rem 0;
+	/* padding: .5rem 0; */
+	font-size:.9rem;
 }
 
 
