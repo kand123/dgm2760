@@ -1,0 +1,165 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  /*  apply a natural box layout model to all elements  */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    
+  }
+  
+  header,
+  main,
+  footer {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: gray;
+    height: 300px;
+    background-image: url(../images/headerimg.jpg);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+  }
+  
+  header img {
+    width: 100%;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 1.5% 0 0 1%;
+  }
+  
+  header h2 {
+    margin: 0;
+    padding: 0 0 0 1%;
+  }
+  
+  header h1 {
+    font-size: 2.4rem;
+  
+    color: rgb(235, 240, 237);
+    text-shadow: 2px 3px 10px #111;
+    /* font-family: 'Chewy', cursive; */
+    font-family: 'Cormorant', serif;
+    font-family: 'Alegreya', serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  header h2 {
+    font-size: 1.1rem;
+    letter-spacing: 0.4rem;
+    color: #fff;
+    text-shadow: 2px 3px 10px #111;
+    margin-top: -0.4rem;
+    font-family: 'Alegreya', serif;
+  }
+  
+  main {
+    margin-bottom: 1.5%;
+    padding-left: 1%;
+  }
+  
+
+  
+  main h1 {
+    font-size: 2rem;
+    margin-bottom: 2%;
+    color: rgb(1, 11, 102);
+   letter-spacing: .02rem;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    letter-spacing: .02rem;
+    color: rgb(1, 11, 102);
+    padding-top: 1%;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+  
+    
+  }
+  
+  main ul li {
+   
+    font-size: 1.1rem;
+    margin-bottom: -5px;
+  }
+  
+  main ul {
+    margin-bottom: 40px;
+  }
+  
+  main p {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 2%;
+  }
+  
+  main li {
+    
+    line-height: 1.6rem;
+  }
+  
+  button {
+    width: 100%;
+    color: white;
+    padding: 1rem .5rem;
+    font-size: 1.2rem;
+    background-color: rgb(191, 225, 253);
+    color: rgb(1, 7, 65);
+    opacity: .9;
+    border: 1px solid white;
+  }
+
+  button:hover {
+    background-color: rgb(253, 175, 175);
+    color: black;
+  }
+
+  div#stem {
+    background-color: rgb(1, 7, 65);
+    color: white;
+    padding: 1rem .5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+
+  }
+  
+#feedbackdiv {
+  background-color: rgb(240, 239, 239);
+  height: 65px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+  footer {
+    background-color: rgb(223, 222, 222);
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-top: 7%;
+  }
+  
+  footer p {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+
+  }
+  main {
+    margin-bottom: 2%;
+  }
+  
+  

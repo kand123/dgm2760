@@ -1,0 +1,29 @@
+{
+"hotels": [
+{
+    "name": "Marriott",
+    "rooms": "50",
+    "gym": "Yes", 
+    "roomTypes": ["King", "Queen", "Queen Deluxe"], 
+    "address": "258 Broad Street", 
+    "pictures": "room1.jpg"
+}, 
+{
+    "name": "Sheraton",
+    "rooms": "100",
+    "gym": "No", 
+    "roomTypes": ["King Suite", "King", "Queen"], 
+    "address": "150 N. Main Street", 
+    "pictures": "room2.jpg" 
+}, 
+{
+    "name": "Hilton",
+    "rooms": "80",
+    "gym": "Yes", 
+    "roomTypes": ["King", "Queen", "Double"], 
+    "address": "41 Washington Street", 
+    "pictures": "room3.jpg"
+}
+
+]
+}
