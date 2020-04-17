@@ -4,7 +4,7 @@
     "name": "Marriott",
     "rooms": "50",
     "gym": "Yes", 
-    "roomTypes": ["King" , " Queen"," Queen Deluxe"], 
+    "roomTypes": ["King", " Queen"," Queen Deluxe"], 
     "address": "258 Broad Street", 
     "pictures": "images/room1.jpg"
 }, 
