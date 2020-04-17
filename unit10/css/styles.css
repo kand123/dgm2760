@@ -1,150 +1,160 @@
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
-  
-  /*  apply a natural box layout model to all elements  */
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-   
-    
-  }
-  
-  header,
-  main,
-  footer {
-    max-width: 75rem;
-    margin: 0 auto;
-  }
-  
-  header {
-    background-color: gray;
-    height: 300px;
-    /* background-image: url(../images/headerimg.jpg); */
-    background-position: 0% 50%;
-    background-repeat: no-repeat;
-  
-    background-size: cover;
-  }
-  
-  header img {
-    width: 100%;
-  }
-  
-  header h1 {
-    margin: 0;
-    padding: 1.5% 0 0 1%;
-  }
-  
-  header h2 {
-    margin: 0;
-    padding: 0 0 0 1%;
-  }
-  
-  header h1 {
-    font-size: 2.4rem;
-  
-    color: rgb(235, 240, 237);
-    text-shadow: 2px 3px 10px #111;
-    /* font-family: 'Chewy', cursive; */
-   
-    letter-spacing: 0.1rem;
-  }
-  
-  header h2 {
-    font-size: 1.1rem;
-    letter-spacing: 0.4rem;
-    color: #fff;
-    text-shadow: 2px 3px 10px #111;
-    margin-top: -0.4rem;
-    
-  }
-  
-  main {
-    margin-bottom: 1.5%;
-    padding-left: 1%;
-  }
-  
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
-  
-  main h1 {
-    font-size: 2rem;
-    margin-bottom: 2%;
-    color: rgb(1, 11, 102);
-   letter-spacing: .02rem;
-  }
-  
-  main h2 {
-    font-size: 1.5rem;
-    letter-spacing: .02rem;
-    color: rgb(1, 11, 102);
-    padding-top: 1%;
-    padding-bottom: 0;
-    margin-bottom: 1%;
-  
-    
-  }
-  
-  main ul li {
-   
-    font-size: 1.1rem;
-    margin-bottom: -5px;
-  }
-  
-  main ul {
-    margin-bottom: 40px;
-  }
-  
-  main p {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    margin-bottom: 2%;
-  }
-  
-  main li {
-    
-    line-height: 1.6rem;
-  }
-  
-  button {
-    /* width: 100%; */
-    color: white;
-    padding: .8rem .9rem;
-    font-size: 1rem;
-    background-color: black;
-    color: rgb(1, 7, 65);
-    color: white;
-    opacity: .9;
-    border: 1px solid white;
-    border-radius: 10px;
-  }
+/*  apply a natural box layout model to all elements  */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
 
-  button:hover {
-    background-color: rgb(253, 175, 175);
-    color: black;
-  } 
+header,
+main,
+footer {
+  max-width: 75rem;
+  margin: 0 auto;
+}
 
+header {
+  /* background-color: gray; */
+  height: 300px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.05)
+    ),
+    url("../images/hotel5.jpg");
+
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+header img {
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 1.5% 0 0 1%;
+}
+
+header h2 {
+  margin: 0;
+  padding: 0 0 0 1%;
+}
+
+header h1 {
+  font-size: 2.45rem;
+
+  color: rgb(48, 41, 36);
+  text-shadow: 2px 3px 5px #ccc;
+
+  font-family: "Lexend Giga", sans-serif;
+}
+
+header h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.34rem;
+
+  color: rgb(239, 251, 255);
+  font-family: "Lexend Giga", sans-serif;
+  text-shadow: 2px 3px 10px #111;
+  margin-top: -0.4rem;
+}
+
+main {
+  margin-bottom: 1.5%;
+  padding-left: 1%;
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 2%;
   
-  img {
-    max-width: 500px;
-  }
+  letter-spacing: 0.02rem;
+  color: rgb(59, 139, 177);
+}
 
+main h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+  color: rgb(4, 4, 5);
+  padding-top: 1%;
+  padding-bottom: 0;
+  margin-bottom: 1%;
+}
 
-  footer {
-    background-color: rgb(223, 222, 222);
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-    margin-top: 7%;
-  }
+main ul li {
+  font-size: 0.9rem;
+  margin-bottom: -5px;
+}
+
+main ul {
+  margin-bottom: 40px;
+}
+
+main p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 2%;
+}
+
+main li {
+  line-height: 1.6rem;
+}
+
+button {
+  /* width: 100%; */
+
+  margin-top: 2%;
+  margin-right: 0.1rem;
+  color: white;
+  padding: 0.8rem 2rem;
+  min-width: 156px;
+  font-size: 1rem;
+
+  background-color: rgb(59, 139, 177);
+
+  color: white;
+  opacity: 0.9;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: rgb(50, 230, 230);
+  color: black;
+}
+
+img {
+  max-width: 450px;
+  margin-top: 1.1rem;
+}
+
+footer {
+  background-color: rgb(48, 41, 36);
   
-  footer p {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+  color: rgb(231, 229, 229);
+  display: flex;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin-top: 7%;
+}
 
-  }
- 
-  
+footer p {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.hotelcontainer {
+  background-color: rgb(238, 237, 237);
+  padding-left: 1.5%;
+  padding-bottom: 2.5%;
+  padding-top: 2%;
+  max-width: 485px;
+  margin-top: 4%;
+}
