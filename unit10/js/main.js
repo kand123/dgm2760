@@ -3,16 +3,17 @@
 async function getHotelData() {
     try {
 const response = await fetch("../hotel.json")
+method: 'GET'
 return await response.json(); //return the JSON object
     } catch (error) {
         console.error(error)
     }
-    finally {return;}
+    
 }
 let hotelData = {}
 getHotelData().then(data => hotelData = data)
 
-console.log(hotelData)
+// console.log(hotelData)
 
 let buttonAll = document.querySelectorAll('button')
 buttonAll.forEach(buttonA => addEventListener('click', hotelInfo))
