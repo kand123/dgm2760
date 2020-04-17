@@ -4,8 +4,6 @@ async function getHotelData() {
     try {
 const response = await fetch("../hotel.json")
 return await response.json(); //return the JSON object
-const data = await response.json();
-    return data;
     } catch (error) {
         console.error(error)
     }
