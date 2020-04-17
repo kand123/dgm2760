@@ -2,16 +2,13 @@
 
 async function getHotelData() {
     try {
-const response = await fetch("../hotel.json", {
-    method: 'GET'
-})
-
-return await response.json(); //return the JSON object
+const response = await fetch("../hotel.json")
+return await response.json() //return the JSON object
     } catch (error) {
         console.error(error)
-    }
-    
+    }  
 }
+
 let hotelData = {}
 getHotelData().then(data => hotelData = data)
 
