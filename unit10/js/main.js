@@ -7,6 +7,7 @@ return await response.json(); //return the JSON object
     } catch (error) {
         console.error(error)
     }
+    finally {return;}
 }
 let hotelData = {}
 getHotelData().then(data => hotelData = data)
