@@ -12,7 +12,7 @@ return await response.json() //return the JSON object
 let hotelData = {}
 getHotelData().then(data => hotelData = data)
 
-
+console.log(hotelData)
 
 let buttonAll = document.querySelectorAll('button')
 buttonAll.forEach(buttonA => addEventListener('click', hotelInfo))
