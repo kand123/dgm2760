@@ -15,7 +15,7 @@ getHotelData().then(data => hotelData = data)
 console.log(hotelData)
 
 let buttonAll = document.querySelectorAll('button')
-buttonAll.forEach(buttonA => addEventListener('click', hotelInfo))
+buttonAll.forEach(() => addEventListener('click', hotelInfo))
 
 
 
