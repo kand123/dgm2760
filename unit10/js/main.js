@@ -2,8 +2,10 @@
 
 async function getHotelData() {
     try {
-const response = await fetch("../hotel.json")
-method: 'GET'
+const response = await fetch("../hotel.json", {
+    method: 'GET'
+})
+
 return await response.json(); //return the JSON object
     } catch (error) {
         console.error(error)
